@@ -1,0 +1,56 @@
+.left{
+  width:28%;
+
+  border:3px solid blue;
+  border-radius: 3%;
+  text-align: center;
+
+}
+
+.parent{
+  display:flex;
+  justify-content: center;
+
+  border: 3px solid red;
+  border-radius: 3%;
+}
+.right{
+  width:68%;
+  border-radius: 3%;
+  border: 3px solid blue;
+  margin:2%;
+  padding:1%;
+}
+img{
+  width:20%;
+}
+/* }
+table{
+width: 100%;
+  border:1px solid black;
+}
+table tr,th,td{
+  border:1 px solid red;
+}
+@media screen and (max-width:767px) {
+  .parent{
+    flex-wrap: wrap;
+
+    background: #CA6F1E;
+  }
+table{
+  font-size:8px;
+} */
+/* }
+@media screen and (min-width:767px) and (max-width:1024px) {
+  .parent{
+    flex-wrap: wrap;
+  }
+  .left,.right{
+    width:35%;
+  }
+  table{
+    font-size: 6px;
+  }
+
+} */

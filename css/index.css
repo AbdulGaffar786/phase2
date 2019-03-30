@@ -1,0 +1,50 @@
+body{
+  background:#283747;
+}
+h1{
+  text-align: center;
+  background:#F4D03F;
+  color:#212F3D;
+}
+h2{
+  color:blue;
+  text-align:center;
+}
+.x{
+  color:blue;
+  text-align: right;
+}
+.parent{
+  width:80%;
+  border:2px solid red;
+  display:flex;
+  flex-wrap:wrap;
+
+}
+.child{
+  width:20%;
+  padding: 3%;
+  margin: 1%;
+  border: 2px solid #F4D03F;
+  background: #B3B6B7;
+  text-align: center;
+}
+.link{
+  font-size: 40px;
+  text-decoration: none;
+}
+.child img{
+  width:120px;
+  height:150px;
+  /* float:left; */
+  padding:10%;
+}
+.center {
+  float: right;
+  text-align: right;
+  /* display:right;
+  */
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
